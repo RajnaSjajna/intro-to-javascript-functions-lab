@@ -82,8 +82,8 @@ const timeOfDay = 'morning';
 
 
 }
-
-
+console.log(greetUser('morning'));
+ 
 
 
 
@@ -105,19 +105,6 @@ const movies = [ 'Lord of the Rings',  'The Fellowship of the Ring', 'Inception'
 // movies.push('Parasite', 'Dune');
 // movies.pop();
 // console.log(movies)
-
-
-
-
-const books = ['The Shining', 'Pride and prejudice', 'IT', 'Vuk']
-
-console.log(books[1]);
-books.forEach(books) => {
-console.log(books)}
-
-for (let a=0; a<books.length; a++) {
-    console.log(books[a]);
-}
 
 
 
