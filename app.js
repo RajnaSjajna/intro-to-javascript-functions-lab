@@ -51,11 +51,8 @@ console.log('Exercise 3 Result:', isCharAVowel('a'));
 
 
 
-function generateEmail(name, domain)   {
-    generateEmail('john', 'gmail.com');
-
-return name + 'rajne_rajne@yahoo.com' + domain ;
-
+function generateEmail(name, domain) {
+    return name + "@" + domain;
 }
 
 console.log(generateEmail('rajne_rajne', 'yahoo.com'));
@@ -67,21 +64,9 @@ console.log(generateEmail('rajne_rajne', 'yahoo.com'));
 
 
 
-function greetUser(timeOfDay ) {
-    
-const timeOfDay = 'morning';
-    if (timeOfDay === 'morning') {
-        return 'Good morning';
-    } else if (timeOfDay === 'afternoon') {
-        return 'Good afternoon';
-    } else if (timeOfDay === 'evening') {
-        return 'Good evening';
-    } else {
-        return 'Hello';
-    } 
-
-
-}
+function greetUser(name, time) {
+    return `Good ${time}, ${name}!`;
+}   
 console.log(greetUser('morning'));
  
 
